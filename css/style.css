@@ -1,0 +1,564 @@
+*{ 
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+ 
+
+body{
+  font-family: 'Baloo Bhaina 2',sans-serif;
+  
+}  
+
+.bg-image{
+  position: relative;
+  height: 3500px;
+  background-image: url("../image/bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about{
+  position: relative;
+  width: 80%;
+  height: 60vh;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 4px solid whitesmoke;
+  
+
+
+}
+/* .text-focus-in {
+	-webkit-animation: text 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+} */
+
+
+
+.header-text{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color:#fff;
+  text-shadow: 3px 3px 2px white;
+  
+ 
+} 
+
+
+#gora{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(223, 175, 20, 0.9);
+  margin-top: 130px;
+}
+   /* animation: move, 4s,linear 0,infinite;  */
+/* 
+}
+ @keyframes move{ 
+   20%{ 
+     top:10px;
+    left:30px
+  }
+  80%{
+    top:20px;
+    left:50px;
+  }
+  100%{
+    top:30px;
+    left:70px;
+  }
+}  */
+
+/* CZEMU TO KURDE NIE DZIALA! */
+
+/* Nie rozumiem czemu nie tylko ta ale zadna animacja mi nie dziala:) nawiasy sa, nazwa potem ta nazwa animacji uzyta na elemencie animowany a i tak chuj:) */
+
+
+
+
+
+.o-mnie{
+  position: absolute;
+  width: 60%; 
+  height: 50vh;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:rgba(62, 63, 65, .8);
+  box-shadow: -35px 13px 7px;
+}
+.o-mnie h1{
+  position:absolute;
+  top: 20%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color:rgba(223, 175, 20, 0.6);
+  font-size: 40px;
+  transition: 1s;
+
+}
+.o-mnie p{
+  position:absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size:13px;
+  color:white;
+
+}
+
+.o-mnie-bg{
+  background-image: url("/image/facet.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 50%;
+  height: 60vh;
+  top: 50%;
+  left: 100%;
+  opacity: .6;
+  transform: translate(-50%, -50%);
+
+  
+
+}
+
+.o-mnie h1:hover{
+  font-size: 60px;
+  color: rgba(221, 187, 236, .5);
+}
+
+.bottom{
+  position:absolute;
+  top: 80%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size:13px;
+  color:white;
+  letter-spacing: 1px;
+  border: 3px solid black;
+  background-color: black;
+  border-radius: 20%;
+  
+}
+
+.bottom:hover{
+  background-color: rgb(37, 35, 35);
+  border:2px solid black;
+  font-size: larger;
+  cursor: pointer;
+}
+section h2 {
+ 
+  position: absolute;  
+  top:210%;
+  left:45%;
+  color: rgba(223, 175, 20, 0.9);
+  transition: 1s;
+  text-align: center;
+  
+ 
+
+}
+section h2:hover{
+  font-size: 30px;
+  text-shadow: rgb(219, 184, 184, .9);
+  text-decoration: underline;
+}
+/* Moglam zrobic klase i nie pisac pod kazdym tego samego ale no madry po szkodzie:) */
+.sowa{
+   background-image: url("/image/sowa.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 12%;
+  height: 28vh;
+  top: 240%;
+  left: 20%;
+  opacity:.9;
+  transform: translate(-50%, -50%); 
+  box-shadow: -25px 8px 7px;
+
+}
+.sowa:hover{
+  width: 15%;
+  height: 37vh;
+
+
+}
+.niedzwiedz{
+  background-image: url("/image/niedzwiedz.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 12%;
+  height: 28vh;
+  top:240%;
+  left:50%;
+  opacity:.8;
+  transform: translate(-50%, -50%); 
+  box-shadow: -25px 5px 7px;
+
+}
+.niedzwiedz:hover{
+  width: 15%;
+  height: 37vh;
+}
+
+.tygrys{
+  background-image: url("/image/tygrys.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 12%;
+  height: 28vh;
+  top:240%;
+  left:80%;
+  opacity:.8;
+  transform: translate(-50%, -50%); 
+  box-shadow: -25px 5px 7px;
+
+}
+.tygrys:hover{
+  width: 15%;
+  height: 37vh;
+}
+.sowa h1{
+  position: relative;
+  font-size: 13px;
+  top: 110%;
+  left:5%;
+  width: 200 px;
+  height: 100px;
+  color:rgb(219, 184, 184);
+  text-decoration: underline;
+  text-transform: uppercase;
+  border: 2px solid whitesmoke;
+  box-shadow: -9px 5px 7px;
+  
+}
+.sowa h1 p{
+  font-size: 10px;
+  color:white;
+  text-decoration:none;
+}
+.sowa h1:hover{
+  transform:rotate(360deg);
+  transition: 2s;
+}
+
+.niedzwiedz h1{
+
+
+  position: relative;
+  font-size:13px;
+  top: 110%;
+  left:5%;
+  width: 200 px;
+  height: 100px;
+  color:rgb(219, 184, 184);
+  text-decoration: underline;
+  text-transform: uppercase;
+  border: 2px solid whitesmoke;
+  box-shadow: -9px 5px 7px;
+
+}
+.niedzwiedz h1 p{
+  font-size: 10px;
+  color:white;
+  text-decoration:none;
+
+}
+.niedzwiedz h1:hover{
+  transform:rotate(360deg);
+  transition: 2s;
+}
+
+.tygrys h1{
+  
+  position: relative;
+  font-size:13px;
+  top: 110%;
+  left:5%;
+  width: 200px;
+  height: 100px;
+  color:rgb(219, 184, 184);
+  text-decoration: underline;
+  text-transform: uppercase;
+  border: 2px solid whitesmoke;
+  box-shadow: -9px 5px 7px;
+  
+  
+ 
+}
+
+.tygrys h1 p{
+  font-size: 10px;
+  color:white;
+  text-decoration:none;
+}
+
+.tygrys h1:hover{
+  transform:rotate(360deg);
+  transition: 2s;
+
+
+}
+
+#tygo{
+  position: absolute;
+  top:272%;
+  left:18%;
+
+  border: 2px solid whitesmoke;
+  border-radius: 20%;
+
+
+}
+#niedzo{
+  position: absolute;
+  top:272%;
+  left:48%;
+  
+  border: 2px solid whitesmoke;
+  border-radius: 20%;
+
+}
+#sowo{
+  position: absolute;
+  top:272%;
+  left:79%;
+  
+  border: 2px solid whitesmoke;
+  border-radius: 20%;
+
+  
+}
+#sowo:hover{
+  cursor: pointer;
+  color:rgba(223, 175, 20, 0.9);
+}
+#niedzo:hover{
+  cursor: pointer;
+  color:rgba(223, 175, 20, 0.9);
+}
+ #tygo:hover{
+  cursor: pointer;
+  color:rgba(223, 175, 20, 0.9);
+ }
+
+ .Gallery{
+  position: absolute;
+  text-align: center;
+  top:300%;
+  left:46%;
+  font-size:25px;
+  color: rgba(223, 175, 20, 0.9);
+  transition: 2s;
+
+ }
+ .Gallery:hover{
+   text-decoration: underline;
+   font-size: 35px;
+ }
+ #zdjecie1{
+   position: absolute;
+   background-image: url("/image/1zdjecie.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 360px;
+   height:180px;
+   top:322%;
+   left:25%;
+   opacity:.9;
+   transition: 2s;
+
+ }
+#zdjecie2{
+  position: absolute;
+   background-image: url("/image/2zdjecie.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   width:320px;
+   height:195px;
+   top:325%;
+   left:42.5%;
+   opacity:.8;
+   transition: 2s;
+
+
+}
+#zdjecie3{
+  position: absolute;
+   background-image: url("/image/3zdjecie.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 380px;
+   height:180px;
+   top:323%;
+   left:57%;
+   opacity:.9;
+   transition: 2s;
+
+}
+#zdjecie4{
+   position: absolute;
+   background-image: url("/image/7zdjecie.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 370px;
+   height:230px;
+   top:355%;
+   left:42%;
+   opacity:.7;
+   transition: 2s;
+
+
+}
+#zdjecie6{
+  position: absolute;
+   background-image: url("/image/4zdjecie.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   top:350%;
+   left:59%;
+   width: 330px;
+   height:200px;
+   opacity:.8;
+   transition: 2s;
+
+
+}
+#zdjecie7{
+  position: absolute;
+   background-image: url("/image/5zdjecie.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 400px;
+   height:180px;
+   top:353%;
+   left:23%;
+   opacity:.8;
+   transition: 2s;
+
+
+}
+#zdjecie1:hover{
+  width: 10%;
+  height: 30vh;
+}
+#zdjecie2:hover{
+  width: 10%;
+  height: 30vh;
+
+}
+#zdjecie3:hover{
+  width: 10%;
+  height: 30vh;
+
+}
+#zdjecie4:hover{
+  width: 10%;
+  height: 30vh;
+
+}
+#zdjecie5:hover{
+  width: 10%;
+  height: 30vh;
+
+}
+#zdjecie6:hover{
+  width: 10%;
+  height: 30vh;
+
+}
+#zdjecie7:hover{
+  width: 10%;
+  height: 30vh;
+
+}
+.Contact1{
+  position: absolute;
+  text-align: center;
+  top:410%;
+  left:45%;
+  font: size 40px;
+  color: rgba(223, 175, 20, 0.9);
+  transition: 2s;
+}
+#Contact{
+  position: absolute;
+  top:435%;
+  left:30%;
+  width: 600px;
+  height:300px;
+  background-color: slategray;
+  opacity: .8;
+  
+  
+
+}
+#Notatnik{
+  position:absolute;
+  background-image: url("/image/notatnik.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 270px;
+  height:310px;
+  top:433%;
+  left:33%;
+  opacity:.9;
+  
+  
+}
+#napis{
+  position: absolute;
+  font-size:30px;
+  color: rgba(223, 175, 20, 0.9);
+  top:440%;
+  left:56%;
+  opacity:.9;
+
+
+
+}
+.name{
+  position: absolute;
+  top:30%;
+  left:55%;
+  /* border-radius: 20px 20px; czemu nie dziala */
+}
+.lname{
+  position: absolute;
+  top:40%;
+  left:55%;
+
+}
+.pisz{
+  position: absolute;
+  top:50%;
+  left:67.5%;
+
+}
+#send{
+  position: absolute;
+  top:80%;
+  left:75%;
+  background-color:rgba(223, 175, 20, 0.9);
+  color:white;
+  
+
+}
+
+#send:hover{
+  cursor: pointer;
+}
